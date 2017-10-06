@@ -1,0 +1,276 @@
+/*FONTS*/
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "PlayFair";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*TOP-NAVIGATION*/
+nav{
+  display: flex;
+  flex-direction: row;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+a.topmenu-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 1rem;
+    font-family: "Lato";
+    font-size: .7rem;
+    color: #adadad;
+    display:inline-block;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#topmenu-dropdown{
+  text-align: right;
+}
+
+.dropdown {
+   background: transparent;
+   border: none;
+   text-transform: uppercase;
+   padding-top: .5rem;
+   padding-bottom: .5rem;
+   padding-right: 1rem;
+   font-family: "Lato";
+   font-size: .7rem;
+   color: #adadad;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   background: url('../images/icon-select.png')  no-repeat;
+   background-position: right center;
+}
+
+#lang-select{
+  border-left: 1px solid #ededed;
+  border-radius: 0px;
+  padding-left: .7rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/*MAIN-NAVIGATION*/
+#main-menu-container{
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#main-menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+a.menu-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #c5c5c5;
+  padding: .2rem 0rem;
+}
+
+a.red{
+  color: #fc411d;
+}
+
+a#logo{
+  font-family: "Didot";
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+#extra-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+a#your-bag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  text-decoration: none;
+  font-family: "Lato";
+  border-radius: 50%;
+  border: 2px solid #1274d3;
+  width: 30px;
+  height: 30px;
+}
+a.extra-menu-link{
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+/*CATALOG*/
+main{
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+h1{
+  font-family: "PlayFair";
+  font-size: 3rem;
+  text-align: center;
+}
+#product-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+a.product-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato";
+  font-size: .85rem;
+  color: #adadad;
+  padding-bottom: .2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+a.selected{
+  color: black;
+  border-bottom: 2px solid #197ed7;
+}
+
+a#load-more{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato-Bold";
+  font-size: .85rem;
+  color: #adadad;
+  text-align: center;
+}
+a:hover{
+  color: black;
+}
+
+#catalog-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-name{
+  font-family: "PlayFair";
+  font-size: 1rem;
+  color: black;
+  margin-bottom: .5rem;
+}
+.product-price{
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #adadad;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+.old-price{
+  text-decoration: line-through;
+  padding-right: .7rem;
+}
+.sale-price{
+  color: red;
+}
+/*SUBSCRIBE*/
+
+#subscribe{
+  background: url("../images/subscribe-bkg.png");
+  background-color: #228adb;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+#subscribe-text-gray{
+  font-family: "Lato-Bold";
+  text-transform: uppercase;
+  font-size: .8rem;
+  opacity: .6;
+  color: #333;
+}
+#subscribe-text-white{
+  font-family: "PlayFair";
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 0rem;
+}
+button#subscribe{
+  font-family: "Lato";
+  text-transform: uppercase;
+  font-size: .7rem;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, .3);
+  padding: .8rem 1rem;
+  padding-right: 3rem;
+  border-radius: 20px;
+  background: url('../images/icon-subscribe.png')  no-repeat;
+  background-position: right center;
+
+}
+
+/*FOOTER*/
+footer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+a.footer-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Lato-Bold";
+  font-size: .8rem;
+  color: black;
+}
+
+#footer-info{
+  display: flex;
+  align-content: center;
+  font-family: "Lato";
+  font-size: .8rem;
+  color: #c5c5c5;
+  align-items: center;
+  justify-content: flex-end;
+}
