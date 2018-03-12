@@ -1,12 +1,9 @@
-# cb-shop
+
 C&amp;B Shop Template
 ===
 
-Basic requirements
----
+### Web Page
+https://svitlua.github.io/cb-shop/
 
-Fonts used:
-1. [Lato](https://fonts.google.com/specimen/Lato)
-2. [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
-
+### Design Template
 ![alt text](design.png "Home Page")
